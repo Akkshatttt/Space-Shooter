@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&display=swap');
+
+
+body{
+	margin:0px;
+	color:#181818;
+}
+
+canvas{
+	border:25px solid #D6DAE1;
+	padding: 0px;
+	margin: 0px;
+}
+
+header > h1{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Asap, sans-serif;
+	padding: 20px;
+	background-color: #181818;
+	font-size: 72px;
+}
+
+.unselectable_content {
+	user-select: none;
+}
+
+div{
+	background-color:#181818;
+	position: absolute;
+	align-items: left;
+	color:white;
+	font-size: 48px;
+	font-family: Asap,sans-serif;
+	user-select: none;
+	margin: 25px;
+	padding: 5px;
+}
